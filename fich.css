@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+.navbar{
+	width:100%;
+	/**position:fixed;**/
+	background-color:#1ABC9C;
+	padding: 25px 0px;
+	margin-bottom: 10px;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;/*permet de mettre en flexbox*/	
+	justify-content:space-between;	/*permet de positionner le texte*/
+	margin: auto;
+}
+.logo a{
+	color:white;
+	font-size: 40px;
+	font-weight: 400;
+}
+.logo a span{
+	color: aqua;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;/*permet de mettre sur la meme ligne*/
+}
+.menu li a{
+	color: aqua;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+
+}
+.menu li a:hover{
+	color: white;
+}
+/*****************************************************/
+.sous{
+	display:none ;
+	position: absolute;
+	width: 150px;
+
+}
+.menu li:hover .sous{
+	display: block;
+}
+.sous li{
+	text-align: center;
+	width: 100%;
+	background-color:black;
+	border: 2px solid white;
+}
+/******************************************************/
+.home{
+	width: 100%;
+	display: flex;
+}
+.child-left{
+	width: 25%;
+	height: 500px;
+	background-color:aqua;
+	margin-left: 10px;
+}
+.child-right{
+	width: 25%;
+	height: 500px;
+	background-color:aqua;
+	margin-right: 10px; 
+}
+.child-center{
+	width: 50%;
+	height: 480px;
+	background-color:pink;
+	margin: auto 10px;
+	display: flex;
+	padding: 10px;
+}
+.info1{
+	width: 50%;
+	height: 100%;
+	background-color: red;
+}
+.info2{
+	width: 50%;
+	height: 100%;
+	background-color: black;
+}
+.info21{
+	height: 30,4%;
+	margin:10px;
+	background-color: white;
+}
+img{
+	border-radius:20px;
+	height: 100px;
+	width: 100px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px white;
+}
